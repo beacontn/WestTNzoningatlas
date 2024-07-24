@@ -1,2 +1,2 @@
-# westtnzoningatlas
-Zoning atlas of West Tennessee. 
+# web-map
+Front-end code for the Zoning Atlas Leaflet.js map
