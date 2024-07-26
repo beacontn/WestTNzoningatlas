@@ -9,6 +9,8 @@ var zone2color = {
   'R': '#645097', // primarily residential, satisfied
   'M': '#815196', // mixed with residential, satisfied
   'N': '#BA6CA4', // nonresidential, satisfied
+  'O': '#8b4a3d', // overlay not affecting use, satisfied
+  'U': '#ababab', // Not Zoned and Unknown
   'NS': '#d0d0d0', // not satisfied
   null: '#d0d0d0'
 }
@@ -461,7 +463,7 @@ var initMap = function() {
     zoomControl: false,
     tap: false,
     maxZoom: 15,
-  }).setView([35.5175, -86.5804], 8);
+  }).setView([35.5616, -90.0780], 9);
 
   L.control.zoom({ position: 'topright' }).addTo(map);
 
