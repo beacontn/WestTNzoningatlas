@@ -9,7 +9,6 @@ var zone2color = {
   'R': '#645097', // primarily residential, satisfied
   'M': '#815196', // mixed with residential, satisfied
   'N': '#BA6CA4', // nonresidential, satisfied
-  'O': '#8b4a3d', // overlay not affecting use, satisfied
   'U': '#ababab', // Not Zoned and Unknown
   'NS': '#d0d0d0', // not satisfied
   null: '#d0d0d0'
