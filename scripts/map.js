@@ -469,7 +469,9 @@ var initMap = function() {
   L.control.fullscreen({
     position: 'topright',
     title: 'Enter Fullscreen',
-    titleCancel: 'Exit Fullscreen'
+    titleCancel: 'Exit Fullscreen',
+    forcePseudoFullscreen: false,
+    fullscreenElement: document.getElementById('map-container')
   })
   .addTo(map)
 
