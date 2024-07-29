@@ -466,6 +466,13 @@ var initMap = function() {
 
   L.control.zoom({ position: 'topright' }).addTo(map);
 
+  L.control.fullscreen({
+    position: 'topright',
+    title: 'Enter Fullscreen',
+    titleCancel: 'Exit Fullscreen'
+  })
+  .addTo(map)
+
   // CartoDB Positron baselayer, no labels
   var cartoTiles = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
