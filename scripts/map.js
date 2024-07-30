@@ -44,8 +44,8 @@ var loadZones = function(geojson) {
   var filters = getFilters();
 
   dataLayer = L.geoJSON(geojson, {
-    attribution: 'data by <a href="https://www.desegregatect.org/">Desegregate CT</a>,\
-      map development by <a href="https://ctdata.org">CTData Collaborative</a>',
+    attribution: 'data by <a href="https://www.beacontn.org/">Beacon Center of Tennessee</a>,\
+      map development by <a href="https://www.zoningatlas.org/">National Zoning Atlas</a>',
     style: function(feature) { return style(filters, feature) },
     onEachFeature: function(feature, layer) {
 
